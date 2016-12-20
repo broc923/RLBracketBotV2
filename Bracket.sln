@@ -6,6 +6,9 @@ MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Source", "Source", "{96231AA4-5BA3-4956-AA96-D838E3FDDC7D}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BracketBot", "Source\BracketBot\BracketBot.csproj", "{C7FFDDC9-393A-4213-8FCF-26D08FC3FF45}"
+	ProjectSection(ProjectDependencies) = postProject
+		{092EAD98-F052-4F72-8C29-8ED93A5936AF} = {092EAD98-F052-4F72-8C29-8ED93A5936AF}
+	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Libraries", "Libraries", "{05B1CE0E-CA6B-4CA7-8B56-E06A1F84D7F4}"
 EndProject
